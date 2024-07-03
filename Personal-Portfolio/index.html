@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title> 
+    <link rel="stylesheet" href="p2style.css"> 
+    <script src="https://kit.fontawesome.com/5f3972672f.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header"> 
+        <div class="container"> 
+            <nav>
+                <div class="header-col-1">
+                    <img src="IMG20231013172251.jpg" alt="">
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav> 
+            <div class="header" style="margin-top: 70px;">
+                <p style="color: rgb(138, 179, 187);">SOFTWARE DEVELOPER</p>
+                <h1 style="color: whitesmoke;">Hi,<br> I'm <span>Sanskrati Patel</span><br>From Indore, <br>Madhya Pradesh</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+        <div class="container">  
+            <div class="row"> 
+                <div class="about-col-1">
+                    <img src="IMG20231014121648.jpg" alt="">
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I am a Programmer from Madhya Pradesh, India, specializing in web application development. I have extensive experience in HTML, CSS, JavaScript, and Java, including frameworks like Spring Boot and J2EE. My expertise spans both frontend and backend development, where I focus on creating robust and user-friendly applications. Known for being friendly, honest, and punctual, I excel in team collaboration and independent work. I enjoy setting ambitious goals and leveraging my creative problem-solving skills to achieve them. With a strong sense of organization and time management, I ensure efficient project delivery and continuous learning in the ever-evolving tech landscape.
+</p>
+                    <div class="tabtitle"> 
+                        <p class="tablinks activelink" onclick="opentab('skills')">Technical Skills</p>
+                        <p class="tablinks" onclick="opentab('softskills')">Soft Skills</p>
+                        <p class="tablinks" onclick="opentab('certificate')">Certificates</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span>Language:  Python, C/C++, Core Java,</span></li>
+                            <li><span>Web Technologies:  HTML5, CSS, Servlet, J2EE.</span></li>
+                            <li><span>Frameworks:  Spring Boot, Collection Framework, Django</span></li>
+                            <li><span>Database:  MySQL, JDBC.</span></li>
+                            <li><span>Tools: GitHub, Visual Studio Code, PyCharm, Intellij </span></li>
+                            <li><span>Application: PowerPoint, MS Word</span></li>
+                       
+                        </ul>
+                    </div>  
+                    <div class="tabcontents" id="softskills">
+                        <ul>
+                            <li><span>Problem Solving</span></li>
+                            <li><span>Critical Thinking</span></li>
+                            <li><span>Quick Learner</span></li>
+                            <li><span>Strong Analytical</span></li>
+                            <li><span>Team Work</span></li>
+                            <li><span>HardWork</span></li>
+                        </ul>
+                    </div>  
+                    <div class="tabcontents" id="certificate">
+                        <ul>
+                            <li><span>Introduction to Java Programming - Great Learning (14/06/2024)</span></li>
+                            <li><span>Multithreading in Java - Great Learning (13/06/2024)</span></li>
+                            <li><span>Web Development with Python Django - CRISP Bhopal (15/07/2023)</span></li>
+                            <li><span>Python Programming - CourseEra (08/08/2022)</span></li>
+                            <li><span>Introduction to C/C++ - Simplearn (10/11/2021)</span></li>
+                        </ul>
+                    </div>  
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>Entry-Level Position Seeker</span></li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2020-2024 - Bachelor of Technology in Information Technology (CGPA: 7.71) - Indira Gandhi Engineering College</span></li>
+                            <li><span>2019-2020 - Higher Secondary (XII - 90%) - Government Model Higher Secondary School, Patera (Damoh)</span></li>
+                            <li><span>2017-2018 - High Secondary (X - 90.2%) - Government Model Higher Secondary School, Patera (Damoh)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="services"> 
+        <div class="container"> 
+            <h1 class="sub-title">Projects</h1> 
+            <div class="serviceslist">  
+                <div>
+                    <i class="fa-solid fa-calculator" style="font-size: 50px;"></i> 
+                    <h2>Fun Calculator</h2>
+                    <p>The "Fun Calculator" project employs Java Servlets and J2EE to process HTTP requests and perform diverse calculations. It leverages RESTful APIs to extend its capabilities, enabling features like real-time weather updates, currency conversion, and trivia retrieval. The application provides a user-friendly interface for both basic arithmetic operations and advanced mathematical functions. With responsive design principles, it ensures seamless functionality across various devices, offering users an interactive and dynamic calculation experience.</p>In this website we used :- <br>Java, RestAPI, J2EE, Servelet, HTML, CSS</p>
+                    <a href="https://github.com/sanskratipatel/Fun-Calculator.git" style="color: blue;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-briefcase" style="font-size: 50px;"></i> 
+                    <h2>Employee Management System</h2>
+                    <p>Developed a comprehensive Employee Management System using Java Spring Boot, MySQL, React, HTML, CSS, and REST API. Key features included:
+ 1. CRUD Operations: Implemented Create, Read, Update, and Delete operations for efficient employee record management.
+ 2. Search and Filter: Enhanced productivity with robust search and filter capabilities based on employee attributes.
+ 3. Role-based Access Control: Ensured data security through role-based access control mechanisms.
+ 4. Intuitive UI: Created a responsive and user-friendly interface using React and Tailwind CSS.
+</p>In this website we used :- <br>Java,Spring Boot, RestAPI, React, MySQL, HTML, CSS</p>
+                    <a href="https://github.com/sanskratipatel/Employee-Management-System.git" style="color: rgb(157, 170, 171);">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud" style="font-size: 50px;"></i> 
+                    <h2>Weather Forecasting</h2>
+                    <p>Integrated RESTful APIs for seamless data retrieval and dynamic weather updates.
+                        Implemented user-friendly interfaces and responsive design for an optimal user experience across devices.
+                        Utilized JSON for efficient data parsing and handling, ensuring swift and accurate data presentation.
+                        Enhanced user engagement by incorporating interactive elements such as weather animations and dynamic 
+                        themes based on the time of day. Ensured high performance and reliability by optimizing server-side code 
+                        and utilizing best practices in web development.</p>In this website we used :- <br>Java,J2EE, Servlet,RestAPI, CSS and HTML.</p>
+                    <a href="https://github.com/sanskratipatel/Weather-Forecasting.git" style="color: blue;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-comments" style="font-size: 50px;"></i>
+                    <h2>E-Commerce Website</h2> 
+                    <p>As part of a collaborative effort, our team designed and developed a feature-rich E-commerce platform using a stack comprising HTML, CSS for front-end styling, Python with the Django framework for back-end logic, and SQLite for efficient data management. This project aimed to deliver a user-friendly shopping experience with robust functionalities:
+Product Management,Shopping Cart,Advanced Filtering Options. Throughout this project, I gained invaluable insights into agile development practices, collaborative teamwork, and the intricacies of full-stack web development. 
+                        <br> HTML,CSS, Python ,Django and MySQL</p>
+                    <a href="https://github.com/sanskratipatel/Dukkan-Ecommerce-Website.git" style="color: blue;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-music" style="font-size: 50px;"></i>
+                    <h2>Music Player</h2> 
+                    <p>Our music website, crafted with HTML, CSS, and JavaScript, offers an immersive and interactive experience for music enthusiasts. The homepage greets users with a sleek, modern design featuring dynamic album covers and a responsive navigation bar that seamlessly adapts to various devices. The JavaScript-powered audio player ensures smooth playback, while AJAX requests enable real-time updates without page reloads, enhancing user engagement. Additionally, the website includes a search functionality, social media integration, and user reviews, making it a comprehensive platform for discovering and enjoying music. <br> .</p> In this website we used :- <br> JavaScript, CSS and HTML. and deploy it in WeHostMost</p>
+                    <a href="http://mymusicwebsitee.freewebhostmost.com/">View Project</a>
+                </div>
+                <!-- Minor Projects Section -->
+                <div>
+                    <h2>Minor Projects</h2>
+                    <ul>
+                        <li><span>Atm Management System </span>This project is a basic ATM machine simulation developed in Java, utilizing the concepts of Object-Oriented Programming (OOP) such as classes and objects. The application allows users to perform typical ATM operations such as checking balance, depositing money, and withdrawing money. </li> <a href="https://github.com/sanskratipatel/ATM-Machine.git" style="color: blue;">Learn More</a><br>
+                        <li><span>Car-Showroom Mangement System</span> This project is a Car Showroom Management System developed in Java, utilizing Object-Oriented Programming (OOP) concepts such as classes, objects, inheritance, encapsulation, and polymorphism.The Car Showroom Management System allows managing cars, employees, and showrooms within a car dealership.</li>
+     <a href="https://github.com/sanskratipatel/Car-Showroom-Management-System.git" style="color: blue;">Learn More</a><br>
+
+                  <li><span>Banking Mangement System</span> 
+                            The JDBC Banking System allows users to perform the following operations:
+                            Create, Read, Update, Delete
+                            The system uses JDBC to connect to a MySQL database for storing account information and transaction 
+                            history. </li>  <a href="https://github.com/sanskratipatel/Banking-System.git" style="color: blue;">Learn More</a>
+                    </ul>
+                    <a href="#" style="color: rgb(27, 27, 49);">Show More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact"> 
+        <div class="container"> 
+            <div class="row"> 
+                <div class="contact-col"> 
+                    <div class="text"> 
+                        <h1 class="sub-title">Contact Me</h1> 
+                        <p><i class="fa-solid fa-envelope"></i> Email: patelsanskrati05@gmail.com</p> 
+                        <p><i class="fa-solid fa-phone"></i> Phone: +919329496348</p> 
+                        <p><i class="fa-solid fa-map-marker-alt"></i> Location: Indore, Madhya Pradesh</p> <br>
+                       <P> <a href="https://www.linkedin.com/in/sanskrati-patel-b2464b223/"><i class="fa-brands fa-linkedin"></i></a> Linkedin Profile</P> <br>
+                      <p> <a href="https://github.com/sanskratipatel"><i class="fa-brands fa-square-github"></i></a> GitHub Profile</p>
+                    </div> 
+                    <a href="Sanskrati_CV_Software Developer.pdf" download="" class="btn btn2">Download CV</a>
+                </div> 
+                <div class="contact-col"> 
+                    <form action="https://formspree.io/f/mqkwwroq" method="POST"> 
+                        <input type="text" name="name" placeholder="Enter Your Name" required> 
+                        <input type="email" name="_replyto" placeholder="Enter Your Email" required> 
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea> 
+                        <button type="submit" class="hero-btn red-btn">Send Email</button> 
+                    </form> 
+                </div> 
+                <div class="copyright">
+                    <p>Copyright @Sanskrati <i class="fa-solid fa-heart"></i></p>
+                </div>
+            </div> 
+        </div> 
+    </div> 
+
+    <script >var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents"); 
+        function opentab(tabname){ 
+           for(tablink of tablinks){ 
+               tablink.classList.remove("activelink");
+           } 
+           for(tabcontent of tabcontents){ 
+               tabcontent.classList.remove("activetab");
+           } 
+           event.currentTarget.classList.add("activelink");
+           document.getElementById(tabname).classList.add("activetab")
+        }
+          </script> 
+
+</body> 
+</html>
